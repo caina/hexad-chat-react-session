@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
+import ChatScene from './scene/chat/chat.scene';
 
 class App extends Component {
     render() {
         return (
-            <div className="App">
-                Hello world
-            </div>
+            <ChatScene/>
         );
     }
 }
